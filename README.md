@@ -16,11 +16,7 @@ cd robo-home
 
 ```console
 brew install uv
-```
-
-## Or
-
-```console
+- or
 pipx install uv
 ```
 
