@@ -1,20 +1,37 @@
 # Installation
 
+## Clone the project
+
 ```console
-# Clone the project.
 git clone git@github.com:michaelcuneo/robo-home.git
+```
 
-# Navigate to the project directory
+## Navigate to the project directory
+
+```console
 cd robo-home
+```
 
-# Install UV (If you don't have it already)
+## Install UV (If you don't have it already)
+
+```console
 brew install uv
+```
 
-# Or
+## Or
+
+```console
 pipx install uv
+```
 
-# Run uv sync (Which will read the project.toml and uv.lock and install the environment)
+## Run uv sync (Which will read the project.toml and uv.lock and install the environment)
+
+```console
 uv sync
+```
 
-# Run the application
+## Run the application
+
+```console
 uv run main.py
+```
