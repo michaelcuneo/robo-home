@@ -17,7 +17,7 @@ cd robo-home
 ```console
 brew install uv
 - or
-pipx install uv
+git pipx install uv
 ```
 
 ## Run uv sync (Which will read the project.toml and uv.lock and install the environment)
